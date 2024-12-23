@@ -1,19 +1,9 @@
-import 'package:quiz_app/gradient_container.dart';
 import 'package:flutter/material.dart';
+import 'package:quiz_app/quiz.dart';
 
 void main() {
-runApp(
-    const MaterialApp(
-      home: Scaffold(
-        body: GradientContainer(
-          Color.fromARGB(255, 33, 5, 109),
-          Color.fromARGB(255, 68, 21, 99),
-        ),
-      ),
-    ),
-  );
+  runApp(Quiz());
 }
-
 
 
 // cmd + shift + P (Fix the code format)
